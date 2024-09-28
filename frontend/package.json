@@ -1,6 +1,6 @@
 {
   "name": "idurar-erp-crm",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "engines": {
     "npm": "10.2.4",
     "node": "20.9.0"
@@ -28,11 +28,11 @@
     "vite": "^5.1.4"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "dev:remote": "cross-env VITE_DEV_REMOTE=remote npm run dev"
+    "dev:remote": "node init && cross-env VITE_DEV_REMOTE=remote npm run dev"
   },
   "devDependencies": {
     "@types/react": "^18.2.38",
