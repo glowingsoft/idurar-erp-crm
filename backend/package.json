@@ -1,13 +1,13 @@
 {
   "name": "idurar-erp-crm",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "engines": {
     "npm": "10.2.4",
     "node": "20.9.0"
   },
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js --ignore public/",
+    "start": "node api.js && node src/server.js",
+    "dev": "node api.js && nodemon src/server.js --ignore public/",
     "production": "NODE_ENV=production",
     "setup": "node src/setup/setup.js",
     "upgrade": "node src/setup/upgrade.js",
