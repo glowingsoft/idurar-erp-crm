@@ -1,0 +1,30 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "claude/ai-headhunter-fetch-g272u0",
+    "claude/maintainers-profile-setup-y7z81r",
+    "demo",
+    "dev",
+    "feat/upgrade-open-source",
+    "master",
+    "origin"
+  ],
+  "parent": {
+    "claude/ai-headhunter-fetch-g272u0": "master",
+    "claude/maintainers-profile-setup-y7z81r": "master",
+    "demo": "master",
+    "dev": "master",
+    "feat/upgrade-open-source": "master",
+    "master": null,
+    "origin": "master"
+  },
+  "order": [
+    "master",
+    "claude/ai-headhunter-fetch-g272u0",
+    "claude/maintainers-profile-setup-y7z81r",
+    "demo",
+    "dev",
+    "feat/upgrade-open-source",
+    "origin"
+  ]
+}
